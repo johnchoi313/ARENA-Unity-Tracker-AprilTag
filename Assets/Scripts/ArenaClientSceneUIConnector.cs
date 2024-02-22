@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ArenaUnity;
 
 public class ArenaClientSceneUIConnector : MonoBehaviour
 {
+
+    public ArenaClientScene acs;
+
     // Start is called before the first frame update
     void Start()
     {
