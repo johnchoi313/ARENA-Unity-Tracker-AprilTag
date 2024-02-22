@@ -198,9 +198,9 @@
       "url": "https://registry.npmjs.com"
     },
     "io.conix.arena.unity": {
-      "version": "https://github.com/arenaxr/arena-unity.git",
+      "version": "file:io.conix.arena.unity",
       "depth": 0,
-      "source": "git",
+      "source": "embedded",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.0.2",
         "com.unity.collab-proxy": "1.2.16",
@@ -243,8 +243,7 @@
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.wind": "1.0.0",
         "com.unity.modules.xr": "1.0.0"
-      },
-      "hash": "3ed411bb90af361944727e23cb6e324cba9f7e39"
+      }
     },
     "jp.keijiro.apriltag": {
       "version": "file:jp.keijiro.apriltag",
