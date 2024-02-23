@@ -63,6 +63,20 @@ public class ArenaClientSceneUIConnector : MonoBehaviour
 
     }
 
+    public void DisconnectArena() {
+        if(acs) {
+            acs.DisconnectArena();
+            Destroy(arenaClientSceneObject);
+        }
+    }
+
+    public void SignoutArena() {
+        if(acs) {
+            ArenaClientScene.SignoutArena();
+        }
+    }
+
+
     // Start is called before the first frame update
     void Start()
     {
